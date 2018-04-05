@@ -1,0 +1,26 @@
+&namcexper
+cn_exper = ""
+/
+&namconfig
+rn_lx = 2500.0
+rn_lz = 1000.0
+ln_rb = .TRUE. 
+ln_ru = .TRUE.
+ln_rl = .TRUE.
+ln_rr = .TRUE.
+/
+&namstab
+rn_lapsrate = 0.0
+ln_neutral  = .TRUE.
+rn_nu       = 75.0
+/
+&namstep
+rn_dt = 0.5
+rn_tmax = 900.0
+rn_twrite = 60.0
+nn_tmax = 900
+nn_twrite = 60
+/
+&namcdout
+cn_drout = "./output"
+/
